@@ -1,4 +1,4 @@
-# acf-db
+# cb-db
 Consider this a "DLC" of sorts to Raynor Kuang's [QuizDB](https://www.quizdb.org/)! With Regionals 2021 approaching, I figured this could be of some use.
 
 Rather than querying an API (which I don't know how to do) and generally working in the back-end, I chose to fetch all the questions from custom JSONs stored in a separate repo with the jQuery `$.getJSON` method. On page load, all 10,000+ questions are retrieved and stored in a global array.
