@@ -3,5 +3,5 @@ let init = setTimeout(function() {
   $(".loader").css("opacity", "0");
   let clear = setTimeout(function() {
     $(".loader-container").hide()
-  }, 2000)
-}, 2000)
+  }, 1000)
+}, 1000)
