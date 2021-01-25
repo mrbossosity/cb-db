@@ -46,7 +46,7 @@ button:hover, a:hover {
   border-left: 1em solid rgb(240,240,240);
   border-radius: 50%;
   animation: spin 0.7s linear infinite;
-  transition: 2s;
+  transition: 1.7s;
 }
 
 @keyframes spin {
@@ -58,7 +58,7 @@ button:hover, a:hover {
   background-color: snow;
   min-height: 100%;
   opacity: 0;
-  transition: 2s ease-out;
+  transition: 1.7s ease-out;
 }
 
 .header {
@@ -203,11 +203,11 @@ button:hover, a:hover {
   }
   
   .top-title {
-    font-size: 1.6em;
+    font-size: 1.5em;
   }
   
   .top-title-impostor {
-    font-size: 1.6em;
+    font-size: 1.5em;
   }
 
   .search-panel {
