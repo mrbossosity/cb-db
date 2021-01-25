@@ -129,7 +129,7 @@ button:hover, a:hover {
 
 .results-length {
   font-size: 1.25em;
-  padding: 0 0 0.5em 0;
+  padding: 0;
   margin-bottom: 1em;
   font-style: italic;
 }
@@ -191,4 +191,50 @@ button:hover, a:hover {
   border-top: 2px solid slategray;
   box-shadow: 0 -0.25em 0.75em 0.25em rgb(250, 250, 255);
   font-size: 0.9rem
+}
+
+@media only screen and (max-width: 500px) {
+  .header {
+    padding: 1em;
+  }
+  
+  .header-impostor {
+    padding: 1em;
+  }
+  
+  .top-title {
+    font-size: 1.7em;
+  }
+  
+  .top-title-impostor {
+    font-size: 1.7em;
+  }
+
+  .search-panel {
+    margin: 15px 0 15px 0;
+    padding: 0.25em 1.25em;
+    display: flex;
+  }
+  
+  #search {
+    font-size: 1.25em;
+    padding: 0.4em;
+    margin-right: 0.5em;
+  }
+  
+  #search-submit {
+    font-size: 1.25em;
+    padding: 0.4em;
+  }
+
+  .results-title {
+    font-size: 1.5em;
+    padding: 0.25em 0 0.25em 0;
+  }
+  
+  .results-length {
+    font-size: 1em;
+    padding: 0;
+    font-style: italic;
+  }
 }
